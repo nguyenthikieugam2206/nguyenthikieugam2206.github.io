@@ -1,0 +1,130 @@
+		.header{
+			height: 56px;
+			background:rgb(33, 37, 41);
+			display: flex;
+    		align-items: center;
+    		justify-content: space-between;
+    		padding: 12px;
+
+		}
+		strong{
+			font-size: 1.25rem;
+			color: #fff;
+		}
+		.icon-camera{
+			margin-right:3px; 
+			color:#fff;
+			width: 25px;
+			height: 25px;
+			position: relative;
+			top:5px; 
+		}
+		.icon-menu{
+			border-radius: solid 0.25rem;
+			width: 35px;
+			height: 35px;
+			color:rgba(255,255,255,.55);
+			margin-left: 45.333px; 
+    		margin-right: 45.333px;
+    		border:1px solid;
+    		border-radius: 0.25rem;
+    		border-color: rgba(255,255,255,.1);
+    		padding: 0.25rem 0.75rem;
+		}
+		.icon-menu:active{
+			color:rgba(255,255,255,.55);
+			border: 5px solid;
+			border-radius: 0.25rem;
+		}
+		.header-left{  
+			margin-left: 45.333px; 
+    		margin-right: 45.333px;
+		}
+		.title{
+			background-color: #ffffff;
+			height: 318.04px;
+			text-align: center;
+			padding: 48px 12px;
+			margin-left:45.333px; 
+			margin-right:45.333px; 
+		}
+		.button-title1{
+			color: white;
+			background-color: #0d6efd;
+    		border: 1px solid transparent;
+    		text-align: center;
+    		border-radius: 0.25rem;
+    		padding: 6px 12px;
+    		margin-top:8px;
+    		margin-left:8px;  
+		}
+		.button-title2{
+			color: white;
+			background-color: #6c757d;
+    		border: 1px solid transparent;
+    		text-align: center;
+    		border-radius: 0.25rem;
+    		padding: 6px 12px;
+    		margin-top:8px;
+    		margin-left:8px;  
+		}
+		h1{
+			margin-bottom: 8px;
+    		color: rgb(33, 37, 41);
+    		
+		}
+		.text-title{
+			font-size: 20px;
+			display: block;
+			margin-bottom:16px; 
+		}
+		.button-group{
+			display: inline-flex;
+			border-radius: 0.2rem;
+			border:1px solid #6c757d;
+		}
+		.btn-view{
+			background-color: transparent;
+    		border:none;
+    		color: #6c757d;
+    		font-size: 14px;
+    		padding: 4px 8px;
+    		float: left;
+    		border-right: 1px solid #6c757d;
+		}
+		.btn-view:hover{
+			background-color: rgb(108, 117, 125);
+			color: white;
+		}
+		.btn-edit{
+			border-left: 1px solid #6c757d;
+			border:none;
+			background-color: transparent;
+    		color: #6c757d;
+    		font-size: 14px;
+    		padding: 4px 8px;
+    		float: left;
+		}
+		.btn-edit:hover{
+			background-color: rgb(108, 117, 125);
+			color: white;
+		}
+		small{
+			color: rgb(108, 117, 125);
+			font-size: 14px;
+		}
+		.card-text{
+			font-size: 16px;
+			margin-bottom:16px; 
+			text-align: start;
+		}
+		text{
+			font-size: 18px;
+			padding: auto;
+			text-anchor: middle;
+		}
+		.album{
+			background-color: #f8f9fa;
+			padding-top: 48px;
+			padding-bottom: 48px;
+		}
